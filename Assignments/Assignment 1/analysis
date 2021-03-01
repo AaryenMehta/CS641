@@ -1,0 +1,4 @@
+According to the results of the frequency analysis (code given below), 'y' should be substituted by 'e'. Now if 'y' is 'e' then there must be a lot of 'the's.
+And by looking at the text, we can see that there are a lot of occurences of the word 'mey'. So let us assume that 'm' is mapped to 't' and 'e' is mapped to 'h'.
+we used similar observations to proceed. We also assumed that the punctuation marks were consistent with the original text. After a few tries we were not able
+to figure out words if the spaces were consistent with the original text. So we assumed that the spaces were inconsistent and the pieces started falling into places.
