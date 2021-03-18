@@ -1,23 +1,10 @@
-# #include <bits/stdc++.h>
-# using namespace std;
-# int main()
-# {
-#   char ch[100],temp[100];
-#   FILE *fi,*fo;
-#   fi = fopen("output_fl.txt","r+");
-#   fo = fopen("sevta_fl.txt","w+");
-#   long int i = 0;
-#   while(i < 199990)
-#   {
-#     int flag = 0;
-#     strcpy(ch,temp);
-#     fscanf(fi,"%s",ch);
-#     if(strlen(ch) == 16)
-#     {
-#       //cout << ch << "\n";
-#         fprintf(fo, "%s\n",ch);
-#         //cout << "yo" ;
-#         i++;
-#     }
-#   }
-# }
+finput = open("/home/aaryen/Desktop/CS641/Assignments/Assignment 4/output.txt","r+")
+foutput = open("/home/aaryen/Desktop/CS641/Assignments/Assignment 4/output_clean.txt","w+")
+i = 0
+while i < 199991:
+    flag = 0
+    ch = finput.readline()
+    if len(ch) == 19 :
+        ch = ch[2:]
+        foutput.write(ch)
+        i += 1
