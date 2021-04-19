@@ -14,6 +14,7 @@ file = open("Assignments/Assignment 5/input.txt","w+")
 for i in range(8):
     for j in range(128):
         curr_ip_j = np.binary_repr(j, width=8)
+        # generating all possible inputs from ff to mu
         strr = 'ff'*i + mapping[curr_ip_j[:4]] + mapping[curr_ip_j[4:]] + 'ff'*(8-i-1)
         file.write(strr)
         file.write(" ")
